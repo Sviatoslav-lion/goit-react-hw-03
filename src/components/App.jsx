@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import reactLogo from '../assets/react.svg';
-import viteLogo from '/vite.svg';
+import PhoneDB from '../phoneDB.json';
+import ContactForm from './ContactForm/ContactForm.jsx';
+import SearchBox from './SearchBox/SearchBox.jsx';
+import ContactList from './ContactList/ContactList.jsx';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
