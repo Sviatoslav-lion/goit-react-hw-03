@@ -1,5 +1,5 @@
 import css from './ContactForm.module.css';
 
-export default function ContactForm() {
+export default function ContactFormFunc() {
   return <></>;
 }
