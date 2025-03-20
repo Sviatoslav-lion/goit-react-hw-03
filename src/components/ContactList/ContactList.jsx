@@ -3,9 +3,9 @@ import Contact from '../Contact/Contact.jsx';
 
 export default function ContactListFunc({ phoneData }) {
   return (
-    <ul>
+    <ul className={css.ulbox}>
       {phoneData.map(phoneItem => (
-        <li key={phoneItem.id}>
+        <li className={css.list} key={phoneItem.id}>
           <Contact peopleContact={phoneItem} />
         </li>
       ))}

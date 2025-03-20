@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Phonebook</h1>
+        <h1 className="hi">Phonebook</h1>
         <ContactForm />
         <SearchBox />
         <ContactList phoneData={PhoneDB} />
