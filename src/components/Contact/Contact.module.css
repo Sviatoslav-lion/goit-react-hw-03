@@ -6,4 +6,22 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 15px;
+  text-align: left;
+}
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.contactLine {
+  align-content: baseline;
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 10px;
+}
+.texticon {
+  width: 20px;
+  height: 20px;
 }
